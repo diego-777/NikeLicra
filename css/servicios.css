@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'pro-display';
+    src: url("/PAGINA_LABORATORIO/fonts/Font_1_SFPRODISPLAYM.OTF")
+}
+
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.container-nav{
+    background-color: black;
+    justify-content: center;
+}
+.wrapper-logo-nike{
+    width: 198px;
+    height: 70px;
+}   
+.links{
+    top: 40px;
+    position: absolute;
+    left: 1500px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 0 7px;
+}
+
+.main{
+    margin: 40px auto;
+    width: 90%;
+}
+.titulo{
+    font-family: 'pro-display';
+    font-size: 75px;
+    text-align: center;
+}
+
+/*  Our team */
+
+.about-services{
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+
+}
+
+.servicio-ind img{
+    width: 70%;
+}
+
+.servicio-ind h3{
+    margin: 7px 0;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'pro-display';
+}

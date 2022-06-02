@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'pro-display';
+    src: url("/PAGINA_LABORATORIO/fonts/Font_1_SFPRODISPLAYM.OTF")
+}
+
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.container-nav{
+    background-color: black;
+    justify-content: center;
+}
+.wrapper-logo-nike{
+    width: 198px;
+    height: 70px;
+}   
+.links{
+    top: 40px;
+    position: absolute;
+    left: 1500px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 0 7px;
+}
+
+.main{
+    margin: 40px auto;
+    width: 90%;
+}
+.wrapper-img-nike{
+    width: 880px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    margin-right: 30px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+.wrapper-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 130px;
+    height: 1em;
+}
+.wrapper-price{
+    padding-top: 10px;
+    margin: 0;
+    font-family: 'pro-display';
+    font-weight: 500;
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+.wrapper-button{
+    width: 696px;
+    height: 93px;
+    background-color: rebeccapurple;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'pro-display';
+    font-size: 32px;
+}
+.añadir{
+    background-color: #eee;
+    color: black;
+}
+.comprar{
+    background-color: #505050;
+    color: white;
+}
+.wrapper-title-color{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+.color{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    margin: 12.5px;
+    
+}
+.wrapper-box-colores{
+    flex-wrap: wrap;
+}
+
+.wrapper-description{
+    margin-top: 20px;
+    font-family: 'pro-display';
+    font-size: 30px;
+    flex-wrap: wrap;
+}

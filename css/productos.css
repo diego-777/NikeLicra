@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'pro-display';
+    src: url("/PAGINA_LABORATORIO/fonts/Font_1_SFPRODISPLAYM.OTF")
+}
+
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.container-nav{
+    background-color: black;
+    justify-content: center;
+}
+.wrapper-logo-nike{
+    width: 198px;
+    height: 70px;
+}   
+.links{
+    top: 40px;
+    position: absolute;
+    left: 1500px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 0 7px;
+}
+.wrapper-img-nike{
+    width: 880px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    margin-right: 30px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+/* Galeria */
+
+.portafolio{
+    background: #ffffff;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(255, 255, 255, 0.815);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 40px;
+}
+
+.hover-galeria p{
+    color: rgb(0, 0, 0);
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+.titulo{
+    font-size: 70px;
+    font-family: 'pro-display';
+    text-align: center;
+}

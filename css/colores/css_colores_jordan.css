@@ -1,0 +1,73 @@
+.uno{
+    background-color: #a52429;
+   }
+   .dos{
+    background-color: #9f5720;
+   }
+   .tres{
+    background-color: #918b15;
+   }
+   .cuatro{
+    background-color: #3c8f14;
+   }
+   .cinco{
+    background-color: #008f14;
+   }
+   .seis{
+    background-color: #008f55;
+   }
+   .siete{
+    background-color: #008f8c;
+   }
+   .ocho{
+    background-color: #005e91;
+   }
+   .nueve{
+    background-color: #232792;
+   }
+   .diez{
+    background-color: #672492;
+   }
+   .once{
+    background-color: #a32492;
+   }
+   .doce {
+    background-color: #a5245e;
+   }
+   
+   .uno:hover{
+    background-color: #a52429;
+   }
+   .dos:hover{
+    background-color: #9f5720;
+   }
+   .tres:hover{
+    background-color: #918b15;
+   }
+   .cuatro:hover{
+    background-color: #3c8f14;
+   }
+   .cinco:hover{
+    background-color: #008f14;
+   }
+   .seis:hover{
+    background-color: #008f55;
+   }
+   .siete:hover{
+    background-color: #008f8c;
+   }
+   .ocho:hover{
+    background-color: #005e91;
+   }
+   .nueve:hover{
+    background-color: #232792;
+   }
+   .diez:hover{
+    background-color: #672492;
+   }
+   .once:hover{
+    background-color: #a32492;
+   }
+   .doce :hover{
+    background-color: #a5245e;
+   }
